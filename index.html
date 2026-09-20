@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Дитячий садок "Сонечко"</title>
+    <link rel="icon" type="image/webp" href="assets/icons/logo.webp">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+
+<!-- Header & Navigation -->
+<header>
+    <div class="logo">
+        <img src="assets/icons/logo.webp" alt="Logo" class="logo-img">
+        <div class="logo-text">
+            <span class="title">"Сонечко"</span><br>
+            <span class="subtitle">Дитячий садок</span>
+        </div>
+    </div>
+    <nav>
+        <a href="#about">Про садок</a>
+        <a href="#gallery">Галерея</a>
+        <a href="#teachers">Викладачі</a>
+        <a href="#contact">Контакти</a>
+    </nav>
+    <button class="burger" aria-label="Menu">☰</button>
+    <div class="mobile-menu">
+        <a href="#about">Про садок</a>
+        <a href="#gallery">Галерея</a>
+        <a href="#teachers">Викладачі</a>
+        <a href="#contact">Контакти</a>
+    </div>
+</header>
+
+<!-- Hero Section -->
+<section class="hero">
+    <div class="hero-content">
+        <h1>ЛАСКАВО ПРОСИМО ДО "СОНЕЧКА"!</h1>
+        <p>Затишний приватний дитячий садок, де дітям безпечно, радісно та комфортно!</p>
+        <p>Наш дитячий садок відкритий для вас.</p>
+        <button type="button" class="btn contact-btn">Записатися</button>
+    </div>
+</section>
+
+<!-- About Section -->
+<section id="about" class="fade-in container">
+    <div class="about">
+        <h3>Про наш садок</h3>
+        <p>Ми створюємо атмосферу турботи та радості, розвиваємо творчі здібності та допомагаємо дітям рости
+            щасливими.</p>
+        <p>Наші заняття включають ігри, свята, творчість та навчання в ігровій формі.</p>
+        <p>В нашому садочку усі діти почувають себе затишно та радісно. Пильні та досвідченні викладачі, та повністю
+            безпечне середовище.</p>
+    </div>
+
+    <div class="about-block">
+        <div class="about-img">
+            <img src="assets/images/about-house.webp" alt="Будинок садика" loading="lazy">
+        </div>
+        <div class="about-text">
+            <h3 class="section-title">Наш будинок</h3>
+            <p>Світлий та затишний простір, де діти почувають себе комфортно та у безпеці.</p>
+            <p>Великий гральний майданчик, та високий паркан навколо.</p>
+            <p>Багато рослин, квітів та зелені.</p>
+            <p>Тиша та природні яскраві кольори!</p>
+        </div>
+    </div>
+
+    <div class="about-block reverse">
+        <div class="about-img">
+            <img src="assets/images/about-interior.webp" alt="Інтер'єр садика" loading="lazy">
+        </div>
+        <div class="about-text">
+            <h3 class="section-title">Інтер'єри</h3>
+            <p>Чудові, яскраво-кольорові кімнати, сучасні меблі та безпечне середовище.</p>
+            <p>Багато іграшок та розвіваючих ігор.</p>
+            <p>Сучасне обладнання, зовнішнє та внутрішнє відеоспостереження.</p>
+            <p>В усіх кімнатах система автоматичного пожежогасіння.</p>
+            <p>Широкі стіни та міцне бомбосховище з запасами питної води та провіанту.</p>
+            <p>Автономне світло, водопостачання та тепло.</p>
+        </div>
+    </div>
+
+    <div class="about-block">
+        <div class="about-img">
+            <img src="assets/images/about-kids.webp" alt="Діти в садку" loading="lazy">
+        </div>
+        <div class="about-text">
+            <h3 class="section-title">Життя всередині</h3>
+            <p>Веселі ігри, творчість та навчання у дружній атмосфері.</p>
+            <p>Досвідчені няні та вихователі.</p>
+            <p>Постійна цілодобова охорона.</p>
+            <p>Чудова їдальня та медичний пункт.</p>
+        </div>
+    </div>
+</section>
+
+<!-- Gallery Section -->
+<section id="gallery" class="fade-in container">
+    <h3 class="section-title">Галерея свят</h3>
+    <div class="swiper gallery-swiper">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <img src="assets/images/gallery-1.webp" alt="Праздник" loading="lazy">
+            </div>
+            <div class="swiper-slide">
+                <img src="assets/images/gallery-2.webp" alt="Игры">
+            </div>
+            <div class="swiper-slide">
+                <img src="assets/images/gallery-3.webp" alt="Заняття" loading="lazy">
+            </div>
+        </div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-pagination"></div>
+    </div>
+</section>
+
+<!-- Teachers Section -->
+<section id="teachers" class="fade-in container">
+    <h3 class="section-title">Наші викладачі</h3>
+    <div class="swiper teachers-swiper">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide card">
+                <img src="assets/images/teacher-sergieva.webp" alt="Директор" loading="lazy">
+                <h4>Валентина Сергієва</h4>
+                <p>Директор дитячого садка "Сонечко".</p>
+            </div>
+            <div class="swiper-slide card">
+                <img src="assets/images/teacher-ivanova.webp" alt="Вихователь" loading="lazy">
+                <h4>Ганна Іванова</h4>
+                <p>Вихователь із 10-річним досвідом роботи.</p>
+            </div>
+            <div class="swiper-slide card">
+                <img src="assets/images/teacher-galkina.webp" alt="Музичний керівник" loading="lazy">
+                <h4>Галина Галкіна</h4>
+                <p>Музичний керівник. Досвідчений вихователь з академічною освітою.</p>
+            </div>
+            <div class="swiper-slide card">
+                <img src="assets/images/teacher-vilkova.webp" alt="Акторська майстерність" loading="lazy">
+                <h4>Олена Вілкова</h4>
+                <p>Викладач акторської майстерності.</p>
+            </div>
+            <div class="swiper-slide card">
+                <img src="assets/images/teacher-arzamasova.webp" alt="Англійська мова" loading="lazy">
+                <h4>Ірина Арзамасова</h4>
+                <p>Вчитель англійської мови.</p>
+            </div>
+            <div class="swiper-slide card">
+                <img src="assets/images/teacher-potapova.webp" alt="Логопед" loading="lazy">
+                <h4>Марія Потапова</h4>
+                <p>Логопед допомагає дітям розвивати мову.</p>
+            </div>
+        </div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-pagination"></div>
+    </div>
+</section>
+
+<!-- Footer & Contact -->
+<footer id="contact" class="fade-in">
+    <h3>Контакти</h3>
+    <p>Адреса: Полуничний провулок, 23, Одеса</p>
+    <p>Телефон: +380 50 123 45 67</p>
+
+    <div class="social-container">
+        <p class="social-title">Мы в соцсетях и мессенджерах:</p>
+        <div class="social-badges">
+            <!-- Instagram -->
+            <a href="#" class="social-badge instagram" target="_blank" rel="noopener">
+                <svg class="social-icon" viewBox="0 0 24 24" width="20" height="20" fill="currentColor">
+                    <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+                </svg>
+                <span>Instagram</span>
+            </a>
+
+            <!-- Telegram -->
+            <a href="#" class="social-badge telegram" target="_blank" rel="noopener">
+                <svg class="social-icon" viewBox="0 0 24 24" width="20" height="20" fill="currentColor">
+                    <path d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm5.894 8.221l-1.97 9.28c-.145.658-.537.818-1.084.508l-3-2.21-1.446 1.394c-.16.16-.295.295-.605.295l.213-3.053 5.56-5.023c.242-.213-.054-.333-.373-.121l-6.871 4.326-2.962-.924c-.643-.204-.657-.643.136-.953l11.57-4.461c.535-.195 1.006.132.832.935z"/>
+                </svg>
+                <span>Telegram</span>
+            </a>
+
+            <!-- Viber -->
+            <a href="#" class="social-badge viber" target="_blank" rel="noopener">
+                <svg class="social-icon" viewBox="0 0 24 24" width="20" height="20" fill="currentColor">
+                    <path d="M12 0c-6.627 0-12 5.373-12 12 0 2.158.572 4.174 1.566 5.912l-1.008 3.688 3.774-.984c1.677.962 3.642 1.516 5.668 1.516 6.627 0 12-5.373 12-12s-5.373-12-12-12zm6.186 15.658c-.255.596-1.488 1.139-2.071 1.21-.555.068-1.282.109-3.791-.914-3.238-1.325-5.334-4.662-5.496-4.877-.162-.216-1.309-1.742-1.309-3.321 0-1.579.827-2.355 1.121-2.673.294-.318.64-.397.854-.397.213 0 .426.002.612.012.196.01.46-.075.72.56.265.637.915 2.222.996 2.383.081.162.135.351.027.568-.108.216-.162.35-.324.54-.162.19-.341.424-.486.57-.162.162-.331.338-.142.661.189.323.839 1.383 1.799 2.238 1.239 1.103 2.28 1.443 2.603 1.605.323.162.512.135.703-.081.191-.216.822-.958 1.041-1.287.218-.329.434-.275.73-.162.296.113 1.875.884 2.196 1.045.321.161.535.242.614.378.079.136.079.791-.176 1.387z"/>
+                </svg>
+                <span>Viber</span>
+            </a>
+        </div>
+    </div>
+
+    <form class="form-block tg-form" method="post">
+        <input type="text" name="name" aria-label="Ваше ім'я" placeholder="Ваше ім'я" required maxlength="50">
+        <input
+                type="tel"
+                name="phone"
+                aria-label="Телефон"
+                placeholder="Ваш телефон (напр. +380...)"
+                required
+                maxlength="20"
+                pattern="^[\+]?[0-9\s\-\(\)]{10,20}$"
+                title="Будь ласка, введіть коректний номер телефону (від 10 цифр)"
+        >
+        <input type="email" name="email" aria-label="Email" placeholder="Email (за бажанням)" maxlength="50">
+        <textarea name="message" aria-label="Повідомлення" placeholder="Ваше запитання" rows="4" required
+                  maxlength="300"></textarea>
+        <button type="submit" class="btn">Надіслати</button>
+        <div class="form-status"
+             style="text-align: center; margin-top: 10px; font-size: 0.9rem; font-weight: 600;"></div>
+    </form>
+    <div class="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1374.9833473617148!2d30.754852599999996!3d46.42953970000001!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40c63388d1cb9b8f%3A0xae287ff5f7435c7a!2z0JrQu9GD0LHQvdC40YfQvdGL0Lkg0L_QtdGALiwgMjMsINCe0LTQtdGB0YHQsCwg0J7QtNC10YHRgdC60LDRjyDQvtCx0LvQsNGB0YLRjCwgNjUwMDA!5e0!3m2!1sru!2sua!4v1789933261270!5m2!1sru!2sua"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="strict-origin-when-cross-origin"></iframe>
+    </div>
+    <p>&copy; <span id="year"></span> Дитячий садок "Сонечко"</p>
+</footer>
+
+<!-- Modal window -->
+<dialog id="modal">
+    <button id="closeModal" type="button" class="close-btn">&times;</button>
+    <h3>Записатись</h3>
+    <form class="form-block tg-form" method="post">
+        <input type="text" name="name" aria-label="Ваше ім'я" placeholder="Ваше ім'я" required maxlength="50">
+        <input
+                type="tel"
+                name="phone"
+                aria-label="Телефон"
+                placeholder="Ваш телефон (напр. +380...)"
+                required
+                maxlength="20"
+                pattern="^[\+]?[0-9\s\-\(\)]{10,20}$"
+                title="Будь ласка, введіть коректний номер телефону (від 10 цифр)"
+        >
+        <input type="email" name="email" aria-label="Email" placeholder="Email (за бажанням)" maxlength="50">
+        <textarea name="message" aria-label="Повідомлення" placeholder="Ваше запитання" rows="4" required
+                  maxlength="300"></textarea>
+        <button type="submit" class="btn">Надіслати</button>
+        <div class="form-status"
+             style="text-align: center; margin-top: 10px; font-size: 0.9rem; font-weight: 600;"></div>
+    </form>
+</dialog>
+
+<!-- Scroll to Top Button -->
+<button id="scrollTopBtn" class="scroll-top" aria-label="Догори">↑</button>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="scripts/main.js"></script>
+</body>
+</html>
