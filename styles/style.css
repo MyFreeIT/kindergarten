@@ -357,11 +357,13 @@ body.modal-open {
     pointer-events: auto;
 }
 
-.scroll-top:hover {
-    background: var(--accent2);
-    color: var(--dark);
-    transform: scale(1.1);
-    opacity: 1;
+@media (hover: hover) and (pointer: fine) {
+    .scroll-top:hover {
+        background: var(--accent2);
+        color: var(--dark);
+        transform: scale(1.1);
+        opacity: 1;
+    }
 }
 
 /* Social badges */
